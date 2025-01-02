@@ -1,4 +1,9 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"
+        <title>CatPhotoApp</title>
+    </head>
     <body>
         <main>
             <section>
@@ -7,13 +12,56 @@
                 <p>Everyone loves <a href="https://cdn.freecodecamp.org/curriculum/cat-photo-app/running-cats.jpg">cute cats</a> photos online!</p>
                 <p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our galery.</p> 
                 <a href="https://freecatphotoapp.com">
-                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg"
-                    alt="A cute orange cat lying on its back">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiE26ff46aKpfHCPy88HJkziodR9zd2jFhlg&s" alt="A cute gray cat extending his paw">
                 </a>
             </section>
             <section>
-                
+                <h2>Cat Lists</h2>
+                <h3>Things cats love:</h3>
+                <ul>
+                    <li>cat nip</li>
+                    <li>laser pointers</li>
+                    <li>lasagna</li>
+                </ul>
+                <figure>
+                    <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+                    <figcaption>Cats <em>love</em> lasagna.</figcaption>
+                </figure>
+                <h3>Top 3 things cats hate:</h3>
+                <ol>
+                    <li>flea treatment</li>
+                    <li>thunder</li>
+                    <li>other cats</li>
+                </ol>
+                <figure>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtZNHEp6f2MtigSIF_mp9c-TBrnnB1LEqLCTs49z1NZ1dKu9Kkwysr-7alv1DhYvDeh6s&usqp=CAU" alt="Seven cats looking around.">
+                    <figcaption>Cats <strong></strong> other cats.</figcaption>
+                </figure>
             </section>
+            <section>
+                <h2>Cat Form</h2>
+                <form action="https://freecatphotoapp.com/submit-cat-photo">
+                    <fieldset>
+                        <legend>
+                            Is your cat an indoor or outdoor cat?
+                        </legend>
+                        <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor</label>
+                        <label><input id="Outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>What's your cat's personality?</legend>
+                        <input type="checkbox" id="loving" name="personality" value="loving" checked> <label for="loving">Loving</label>
+                        <input type="checkbox" id="lazy" name="personality" value="lazy"> <label for="lazy">Lazy</label>
+                        <input type="checkbox" id="energetic" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+                    </fieldset>
+                    <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+            <!-- My First HTML Page | 01-01-2025; by: Jhonathan Wesley Faria Dias Alves-->
         </main>
+        <footer>
+            <p>No Copyright - <a href="https://freecodecamp.org" target="_blank">freeCodeCamp.org</a></p>
+        </footer>
     </body>
 </html>
