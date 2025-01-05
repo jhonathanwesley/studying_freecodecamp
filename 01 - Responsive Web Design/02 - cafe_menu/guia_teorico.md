@@ -206,3 +206,28 @@ That's closer, but the price didn't stay over on the right. This is because `inl
 
 - Inclusive bordas, as bordas tem `1px` por padrão
 
+--- 
+
+> Mudando propriedades de um `link`
+
+- É possível mudar o estilo de um link dependendo do estado com **pseduo-seletores**
+
+**EXEMPLO:**
+
+```css
+a {
+  color: black;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+propertyName: propertyValue;
+}
+```
