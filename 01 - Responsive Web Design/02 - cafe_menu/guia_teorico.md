@@ -200,3 +200,9 @@ That's closer, but the price didn't stay over on the right. This is because `inl
 
 - Como você sabe que os preços à direita têm significativamente menos caracteres, altere o valor da largura da classe de sabor para 75% e o valor da largura da classe de preço para 25%.
 
+---
+
+> O Elemento `<hr>` **"Horizontal Rule"** cria uma linha de divisória, que pode ser estilizada com `css`
+
+- Inclusive bordas, as bordas tem `1px` por padrão
+
