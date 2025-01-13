@@ -4,6 +4,6 @@
 
 ### Artificial Intelligence vs Neural Networks vs Machine Learning
 
-> Formal definition of A.I. - Artificial Intelligencek:
+> Formal definition of A.I. - Artificial Intelligence:
 
 - The effort to automate intellectual tasks normally performed by humans
