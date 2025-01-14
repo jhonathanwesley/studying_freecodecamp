@@ -8,7 +8,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         self.send_header('Content-type', 'text/html')
         self.end_headers()
         
-        resposta = "<h1>Olá, mundo!</h1>"
+        resposta = "./index.html/"
         
         self.wfile.write(resposta.encode('utf-8'))
 
